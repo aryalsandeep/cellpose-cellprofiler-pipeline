@@ -1,0 +1,14 @@
+name: rs19_ccp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ruff
+  - pip:
+    - python-dotenv
+    - mkdocs
+    - -e .
