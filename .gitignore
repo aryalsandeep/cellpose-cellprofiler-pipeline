@@ -184,3 +184,32 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Environments
+.env/
+.venv/
+.envrc
+*.env
+
+# Data
+data/processed/
+*.tif
+*.png
+*.npz
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Conda environment
+environment.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
